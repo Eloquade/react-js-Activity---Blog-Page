@@ -19,111 +19,111 @@ const Aboutpage = () => (
                 <title>Hello, world!</title>
             
             <body>
-                <div class="container_wrapper">
-                <section class="__colored" id="navigation_container">
+                <div className="container_wrapper">
+                <section className="__colored" id="navigation_container">
                     <div id="branding"><a href="index.html">
-                        <h1 class="logo-container __center __colored">
-                        <div class="city">My</div>
-                        <div class="es">Travel</div>
-                        <div class="cape">Blog</div>
+                        <h1 className="logo-container __center __colored">
+                        <div className="city">My</div>
+                        <div className="es">Travel</div>
+                        <div className="cape">Blog</div>
                         </h1></a></div>
-                    <label for="menu_icon"> <i class="fa fa-bars"></i></label>
+                    <label for="menu_icon"> <i className="fa fa-bars"></i></label>
                     <input id="menu_icon" type="checkbox"/>
 
                 </section>
                 <section id="blog-featured">
-                    <div class="post_featured">
-                    <div class="post_featured__photo"></div>
-                    <div class="post_featured__details">
-                        <h2 class="featured-details__title"><a href="#">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2><a class="post-card__avatar" href="#">
-                        <div class="avatar__muted-line"></div>
-                        <div class="avatar__white-bg">
-                            <div class="white-bg-container">
-                            <div class="avatar__circle"></div>
-                            <div class="avatar__name">by John Doe</div>
+                    <div className="post_featured">
+                    <div className="post_featured__photo"></div>
+                    <div className="post_featured__details">
+                        <h2 className="featured-details__title"><a href="#">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2><a class="post-card__avatar" href="#">
+                        <div className="avatar__muted-line"></div>
+                        <div className="avatar__white-bg">
+                            <div className="white-bg-container">
+                            <div className="avatar__circle"></div>
+                            <div className="avatar__name">by John Doe</div>
                             </div>
                         </div></a>
-                        <p class="featured-details__desc">
+                        <p className="featured-details__desc">
                         Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod 
                         
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod
                         </p>
-                        <div class="featured-details__action"><a class="button border-only muted" href="#">read more </a></div>
+                        <div className="featured-details__action"><a className="button border-only muted" href="#">read more </a></div>
                     </div>
                     </div>
                 </section>
                 <section id="blog-list">
-                    <div class="grid_post_container">
-                    <div class="post-card"><a class="post-card__category" href="">category</a>
-                        <div class="post-card__featured-image"></div>
-                        <div class="post-card__details">
+                    <div className="grid_post_container">
+                    <div className="post-card"><a className="post-card__category" href="">category</a>
+                        <div className="post-card__featured-image"></div>
+                        <div className="post-card__details">
                         <h2><a href="post.html">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2>
                         <p>Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod</p><a class="post-card__avatar" href="post.html">
-                            <div class="avatar__circle"></div>
-                            <div class="avatar__name">by John Doe</div>
-                            <div class="avatar__muted-line"></div></a>
+                            <div className="avatar__circle"></div>
+                            <div className="avatar__name">by John Doe</div>
+                            <div className="avatar__muted-line"></div></a>
                         </div>
                     </div>
-                    <div class="post-card"><a class="post-card__category" href="post.html">category</a>
-                        <div class="post-card__featured-image"></div>
-                        <div class="post-card__details">
+                    <div className="post-card"><a className="post-card__category" href="post.html">category</a>
+                        <div className="post-card__featured-image"></div>
+                        <div className="post-card__details">
                         <h2><a href="post.html">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2>
                         <p>Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod</p><a class="post-card__avatar" href="post.html">
-                            <div class="avatar__circle"></div>
-                            <div class="avatar__name">by John Doe</div>
-                            <div class="avatar__muted-line"></div></a>
+                            <div className="avatar__circle"></div>
+                            <div className="avatar__name">by John Doe</div>
+                            <div className="avatar__muted-line"></div></a>
                         </div>
                     </div>
-                    <div class="post-card"><a class="post-card__category" href="post.html">category</a>
-                        <div class="post-card__featured-image"></div>
-                        <div class="post-card__details">
+                    <div className="post-card"><a className="post-card__category" href="post.html">category</a>
+                        <div className="post-card__featured-image"></div>
+                        <div className="post-card__details">
                         <h2><a href="post.html">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2>
                         <p>Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod</p><a class="post-card__avatar" href="post.html">
-                            <div class="avatar__circle"></div>
-                            <div class="avatar__name">by John Doe</div>
-                            <div class="avatar__muted-line"></div></a>
+                            <div className="avatar__circle"></div>
+                            <div className="avatar__name">by John Doe</div>
+                            <div className="avatar__muted-line"></div></a>
                         </div>
                     </div>
-                    <div class="post-card"><a class="post-card__category" href="post.html">category</a>
-                        <div class="post-card__featured-image"></div>
-                        <div class="post-card__details">
+                    <div className="post-card"><a className="post-card__category" href="post.html">category</a>
+                        <div className="post-card__featured-image"></div>
+                        <div className="post-card__details">
                         <h2><a href="post.html">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2>
                         <p>Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod</p><a class="post-card__avatar" href="post.html">
-                            <div class="avatar__circle"></div>
-                            <div class="avatar__name">by John Doe</div>
-                            <div class="avatar__muted-line"></div></a>
+                            <div className="avatar__circle"></div>
+                            <div className="avatar__name">by John Doe</div>
+                            <div className="avatar__muted-line"></div></a>
                         </div>
                     </div>
-                    <div class="post-card"><a class="post-card__category" href="post.html">category</a>
-                        <div class="post-card__featured-image"></div>
-                        <div class="post-card__details">
+                    <div className="post-card"><a className="post-card__category" href="post.html">category</a>
+                        <div className="post-card__featured-image"></div>
+                        <div className="post-card__details">
                         <h2><a href="post.html">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2>
                         <p>Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod</p><a class="post-card__avatar" href="post.html">
-                            <div class="avatar__circle"></div>
-                            <div class="avatar__name">by John Doe</div>
-                            <div class="avatar__muted-line"></div></a>
+                            <div className="avatar__circle"></div>
+                            <div className="avatar__name">by John Doe</div>
+                            <div className="avatar__muted-line"></div></a>
                         </div>
                     </div>
-                    <div class="post-card"><a class="post-card__category" href="post.html">category</a>
-                        <div class="post-card__featured-image"></div>
-                        <div class="post-card__details">
+                    <div className="post-card"><a className="post-card__category" href="post.html">category</a>
+                        <div className="post-card__featured-image"></div>
+                        <div className="post-card__details">
                         <h2><a href="post.html">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2>
                         <p>Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod</p><a class="post-card__avatar" href="post.html">
-                            <div class="avatar__circle"></div>
-                            <div class="avatar__name">by John Doe</div>
-                            <div class="avatar__muted-line"></div></a>
+                            <div className="avatar__circle"></div>
+                            <div className="avatar__name">by John Doe</div>
+                            <div className="avatar__muted-line"></div></a>
                         </div>
                     </div>
                     </div>
                 </section>
                 </div>
                 <footer>
-                <div class="container_wrapper">
+                <div className="container_wrapper">
                     <div id="footer__site_description">
-                    <h1 class="logo-container __center">
-                        <div class="city">My</div>
-                        <div class="es">Travel</div>
-                        <div class="cape">Blog</div>
+                    <h1 className="logo-container __center">
+                        <div className="city">My</div>
+                        <div className="es">Travel</div>
+                        <div className="cape">Blog</div>
                     </h1>
                     <h3>explore and be part of the community site</h3>
                     <p>
@@ -134,9 +134,9 @@ const Aboutpage = () => (
                     <div id="footer__social_media">
                     <h3>social media</h3>
                     <ul>
-                        <li><a href="#"><i class="fa fa-instagram"></i>@cityescape</a></li>
-                        <li><a href="#"><i class="fa fa-facebook-square"></i>@officialcityescape.ph</a></li>
-                        <li><a href="#"><i class="fa fa-envelope"></i>help@cityescape.ph</a></li>
+                        <li><a href="#"><i className="fa fa-instagram"></i>@cityescape</a></li>
+                        <li><a href="#"><i className="fa fa-facebook-square"></i>@officialcityescape.ph</a></li>
+                        <li><a href="#"><i className="fa fa-envelope"></i>help@cityescape.ph</a></li>
                     </ul>
                     </div>
                     <div id="footer__pages">

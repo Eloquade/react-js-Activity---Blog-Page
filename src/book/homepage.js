@@ -19,13 +19,13 @@ const HomePage = () => (
                 
                 <body>
                     <section id="above-the-fold">
-                    <div class="container_wrapper">
+                    <div className="container_wrapper">
                         <section id="navigation_container">
                         <div id="branding"><a href="index.html">
                             <h1 class="logo-container __center">
-                                <div class="city">My</div>
-                                <div class="es">Travel</div>
-                                <div class="cape">Blog</div>
+                                <div className="city">My</div>
+                                <div className="es">Travel</div>
+                                <div className="cape">Blog</div>
                             </h1></a></div>
                         <label for="menu_icon"> <i class="fa fa-bars"></i></label>
                         <input id="menu_icon" type="checkbox"/>
@@ -37,63 +37,63 @@ const HomePage = () => (
                     </div>
                     </section>
                     <section id="latest-review">
-                    <h2 class="section-title">
-                        <div class="color-city">latest </div>
-                        <div class="color-cape">Travel</div>
+                    <h2 className="section-title">
+                        <div className="color-city">latest </div>
+                        <div className="color-cape">Travel</div>
                     </h2>
-                    <div class="container_wrapper"/>
-                        <div class="grid_post_container">
-                        <div class="post-card1"><a class="post-card__category" href="post.html">Dingalan</a>
-                            <div class="post-card__featured-image1"></div>
-                            <div class="post-card__details">
-                            <h3><a href="post.html">“Never let your memories be greater than your dreams“ </a></h3>
-                            <a class="post-card__avatar" href="post.html">
-                                <div class="avatar__circle"></div>
-                                <div class="avatar__name">by Lawrence Perez</div>
-                                <div class="avatar__muted-line"></div></a>
+                    <div className="container_wrapper"/>
+                        <div className="grid_post_container">
+                        <div className="post-card1"><a className="post-card__category" href="">Dingalan</a>
+                            <div className="post-card__featured-image1"></div>
+                            <div className="post-card__details">
+                            <h3><a href="">“Never let your memories be greater than your dreams“ </a></h3>
+                            <a className="post-card__avatar" href="">
+                                <div className="avatar__circle"></div>
+                                <div className="avatar__name">by Lawrence Perez</div>
+                                <div className="avatar__muted-line"></div></a>
                             </div>
                         </div>
 
                         
-                        <div class="post-card2"><a class="post-card__category" href="post.html">Dingalan</a>
-                            <div class="post-card__featured-image2"></div>
-                            <div class="post-card__details">
-                            <h3><a href="post.html">“A journey of a thousand miles begins with a single step” </a></h3>
-                            <a class="post-card__avatar" href="post.html">
-                                <div class="avatar__circle"></div>
-                                <div class="avatar__name">by Lawrence Perez</div>
-                                <div class="avatar__muted-line"></div></a>
+                        <div className="post-card2"><a className="post-card__category" href="">Dingalan</a>
+                            <div className="post-card__featured-image2"></div>
+                            <div className="post-card__details">
+                            <h3><a href="">“A journey of a thousand miles begins with a single step” </a></h3>
+                            <a className="post-card__avatar" href="">
+                                <div className="avatar__circle"></div>
+                                <div className="avatar__name">by Lawrence Perez</div>
+                                <div className="avatar__muted-line"></div></a>
                             </div>
                         </div>
 
-                        <div class="post-card3"><a class="post-card__category" href="post.html">Dingalan</a>
-                            <div class="post-card__featured-image3"></div>
-                            <div class="post-card__details">
-                            <h3><a href="post.html"> “Do not follow where the path may lead. Go instead where there is no path and leave a trail” </a></h3>
-                            <a class="post-card__avatar" href="post.html">
-                                <img class="avatar__circle" ></img>
-                                <div class="avatar__name">by Lawrence Perez</div>
-                                <div class="avatar__muted-line"></div></a>
+                        <div className="post-card3"><a className="post-card__category" href="">Dingalan</a>
+                            <div className="post-card__featured-image3"></div>
+                            <div className="post-card__details">
+                            <h3><a href=""> “Do not follow where the path may lead. Go instead where there is no path and leave a trail” </a></h3>
+                            <a className="post-card__avatar" href="">
+                                <img className="avatar__circle" ></img>
+                                <div className="avatar__name">by Lawrence Perez</div>
+                                <div className="avatar__muted-line"></div></a>
                             </div>
                         </div>
                     </div>
                     </section>
                     <footer>
-                    <div class="container_wrapper">
+                    <div className="container_wrapper">
                         <div id="footer__site_description">
-                        <h1 class="logo-container __center">
-                            <div class="city">My</div>
-                            <div class="es">Travel</div>
-                            <div class="cape">Blog</div>
+                        <h1 className="logo-container __center">
+                            <div className="city">My</div>
+                            <div className="es">Travel</div>
+                            <div className="cape">Blog</div>
                         </h1>
                         <h3>“It is better to travel well than to arrive.”</h3>
                         </div>
                         <div id="footer__social_media">
                         <h3>social media</h3>
                         <ul>
-                            <li><a href="#"><i class="fa fa-instagram"></i>@lanceeee</a></li>
-                            <li><a href="#"><i class="fa fa-facebook-square"></i>@lawrence_perez08</a></li>
-                            <li><a href="#"><i class="fa fa-envelope"></i>perez.lawrence08@gmail.com</a></li>
+                            <li><a href="#"><i className="fa fa-instagram"></i>@lanceeee</a></li>
+                            <li><a href="#"><i className="fa fa-facebook-square"></i>@lawrence_perez08</a></li>
+                            <li><a href="#"><i className="fa fa-envelope"></i>perez.lawrence08@gmail.com</a></li>
                         </ul>
                         </div>
                         <div id="footer__pages">
