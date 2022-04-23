@@ -13,14 +13,14 @@ const Navbar = () => (
                 <title>Document</title>
                 </head>
                     <body>
-                    <nav class="navbar">
+                    <nav className="navbar">
                     
-                    <div class="logo">GEO</div>
+                    <div className="logo">GEO</div>
                 
-                        <ul class="nav-links">
+                        <ul className="nav-links">
                         
                             
-                            <div class="menu">
+                            <div className="menu">
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/Articlelist">About</Link></li>
                             
