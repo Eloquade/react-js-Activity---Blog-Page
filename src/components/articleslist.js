@@ -20,71 +20,71 @@ const ArticleList = ({articles}) => (
                                         <title>Hello, world!</title>
                                     
                                     <body>
-                                        <div class="container_wrapper"/>
-                                        <section class="__colored" id="navigation_container">
+                                        <div className="container_wrapper"/>
+                                        <section className="__colored" id="navigation_container">
                                             <div id="branding"><a href="index.html">
-                                                <h1 class="logo-container __center __colored">
-                                                <div class="city">My</div>
-                                                <div class="es">Travel</div>
-                                                <div class="cape">Blog</div>
+                                                <h1 className="logo-container __center __colored">
+                                                <div className="city">My</div>
+                                                <div className="es">Travel</div>
+                                                <div className="cape">Blog</div>
                                                 </h1></a></div>
-                                            <label for="menu_icon"> <i class="fa fa-bars"></i></label>
+                                            <label for="menu_icon"> <i className="fa fa-bars"></i></label>
                                             <input id="menu_icon" type="checkbox"/>
 
                                         </section>
                                         <section id="blog-featured">
-                                            <div class="post_featured">
-                                            <div class="post_featured__photo"></div>
-                                            <div class="post_featured__details">
-                                                <h2 class="featured-details__title"><a href="#">My Travel Blog </a></h2><a class="post-card__avatar" href="#">
-                                                <div class="avatar__muted-line"></div>
-                                                <div class="avatar__white-bg">
-                                                    <div class="white-bg-container">
-                                                    <div class="avatar__circle"></div>
-                                                    <div class="avatar__name">by Lawrence Perez</div>
+                                            <div className="post_featured">
+                                            <div className="post_featured__photo"></div>
+                                            <div className="post_featured__details">
+                                                <h2 className="featured-details__title"><a href="#">My Travel Blog </a></h2><a className="post-card__avatar" href="#">
+                                                <div className="avatar__muted-line"></div>
+                                                <div className="avatar__white-bg">
+                                                    <div className="white-bg-container">
+                                                    <div className="avatar__circle"></div>
+                                                    <div className="avatar__name">by Lawrence Perez</div>
                                                     </div>
                                                 </div></a>
-                                                <p class="featured-details__desc">
+                                                <p className="featured-details__desc">
                                                 Photographs were always a big thing in my life. They were always just around to remind me of the special moments captured in them. Photos were just always a story to me. You could look at a photo and put together the story or sometimes you needed a little assistance putting it together. That’s what always made them special.
                                                 </p>
-                                                <div class="featured-details__action"><a class="button border-only muted" href="#">read more </a></div>
+                                                <div className="featured-details__action"><a className="button border-only muted" href="#">read more </a></div>
                                             </div>
                                             </div>
                                         </section>
                                         {articles.map((article, key) => (
                                             <Link key={key} to={`/article/${article.name}`}>
                                                 <section id="blog-list">
-                                                    <div class="grid_post_container">
-                                                    <div class="post-card1"><a class="post-card__category" href="">Dingalan</a>
-                                                        <div class="post-card__featured-imagecontent"><img src={article.image} /></div>
-                                                        <div class="post-card__details">
+                                                    <div className="grid_post_container">
+                                                    <div className="post-card1"><a className="post-card__category" href="">Dingalan</a>
+                                                        <div className="post-card__featured-imagecontent"><img src={article.image} /></div>
+                                                        <div className="post-card__details">
                                                         <h2><a href="">{article.title} </a></h2>
-                                                        <p></p><a class="post-card__avatar" href="">
-                                                            <div class="avatar__circle"></div>
-                                                            <div class="avatar__name">by Lawrence Perez</div>
-                                                            <div class="avatar__muted-line"></div></a>
+                                                        <p></p><a className="post-card__avatar" href="">
+                                                            <div className="avatar__circle"></div>
+                                                            <div className="avatar__name">by Lawrence Perez</div>
+                                                            <div className="avatar__muted-line"></div></a>
                                                         </div>
                                                     </div>
                                                     
                                             
-                                            <div class="post-card1"><a class="post-card__category" href="">Baler</a>
-                                                <div class="post-card__featured-imagecontent"><img src={article.subimage} /></div>
-                                                <div class="post-card__details">
+                                            <div className="post-card1"><a className="post-card__category" href="">Baler</a>
+                                                <div className="post-card__featured-imagecontent"><img src={article.subimage} /></div>
+                                                <div className="post-card__details">
                                                 <h2><a href="l">{article.title}</a></h2>
-                                                <p></p><a class="post-card__avatar" href="">
-                                                    <div class="avatar__circle"></div>
-                                                    <div class="avatar__name">by Lawrence Perez</div>
-                                                    <div class="avatar__muted-line"></div></a>
+                                                <p></p><a className="post-card__avatar" href="">
+                                                    <div className="avatar__circle"></div>
+                                                    <div className="avatar__name">by Lawrence Perez</div>
+                                                    <div className="avatar__muted-line"></div></a>
                                                 </div>
                                             </div>
-                                            <div class="post-card1"><a class="post-card__category" href="">Batanes</a>
-                                                <div class="post-card__featured-imagecontent"><img src={article.landmark} /></div>
-                                                <div class="post-card__details">
+                                            <div className="post-card1"><a className="post-card__category" href="">Batanes</a>
+                                                <div className="post-card__featured-imagecontent"><img src={article.landmark} /></div>
+                                                <div className="post-card__details">
                                                 <h2><a href="">{article.title} </a></h2>
-                                                <p></p><a class="post-card__avatar" href="">
-                                                    <div class="avatar__circle"></div>
-                                                    <div class="avatar__name">by Lawrence Perez</div>
-                                                    <div class="avatar__muted-line"></div></a>
+                                                <p></p><a className="post-card__avatar" href="">
+                                                    <div className="avatar__circle"></div>
+                                                    <div className="avatar__name">by Lawrence Perez</div>
+                                                    <div className="avatar__muted-line"></div></a>
                                                 </div>
                                             </div>
                                             
@@ -96,21 +96,21 @@ const ArticleList = ({articles}) => (
                                         ))}         
 
                                         <footer>
-                                        <div class="container_wrapper">
+                                        <div className="container_wrapper">
                                             <div id="footer__site_description">
-                                            <h1 class="logo-container __center">
-                                                <div class="city">My</div>
-                                                <div class="es">Travel</div>
-                                                <div class="cape">Blog</div>
+                                            <h1 className="logo-container __center">
+                                                <div className="city">My</div>
+                                                <div className="es">Travel</div>
+                                                <div className="cape">Blog</div>
                                             </h1>
                                             <h3>“It is better to travel well than to arrive.”</h3>
                                             </div>
                                             <div id="footer__social_media">
                                             <h3>social media</h3>
                                             <ul>
-                                                <li><a href="#"><i class="fa fa-instagram"></i>@lanceeee</a></li>
-                                                <li><a href="#"><i class="fa fa-facebook-square"></i>@lawrence_perez08</a></li>
-                                                <li><a href="#"><i class="fa fa-envelope"></i>perez.lawrence08@gmail.com</a></li>
+                                                <li><a href="#"><i className="fa fa-instagram"></i>@lanceeee</a></li>
+                                                <li><a href="#"><i className="fa fa-facebook-square"></i>@lawrence_perez08</a></li>
+                                                <li><a href="#"><i className="fa fa-envelope"></i>perez.lawrence08@gmail.com</a></li>
                                             </ul>
                                             </div>
                                             <div id="footer__pages">

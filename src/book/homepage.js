@@ -46,7 +46,7 @@ const HomePage = () => (
                         <div class="post-card1"><a class="post-card__category" href="post.html">Dingalan</a>
                             <div class="post-card__featured-image1"></div>
                             <div class="post-card__details">
-                            <h3><a href="post.html">Never let your memories be greater than your dreams. </a></h3>
+                            <h3><a href="post.html">“Never let your memories be greater than your dreams“ </a></h3>
                             <a class="post-card__avatar" href="post.html">
                                 <div class="avatar__circle"></div>
                                 <div class="avatar__name">by Lawrence Perez</div>
